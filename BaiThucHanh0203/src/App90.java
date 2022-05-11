@@ -13,7 +13,7 @@ public class App90 {
       // và gán vào cho biến kyTu
       // i chạy từ 0 đến vị trí độ dài của chuỗi - 1
           kyTu = chuoi.charAt(i);
-          System.out.print(kyTu);
+          System.out.println();
       }
   }
 }

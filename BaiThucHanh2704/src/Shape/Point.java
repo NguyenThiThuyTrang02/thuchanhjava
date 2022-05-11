@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Point {
     private String tendiem;
     private float hoanhdo, tungdo;
+    Scanner nd= new Scanner(System.in);
 
     //getter của thuộc tính tên điểm
     public String gettenDiem(){
@@ -42,7 +43,7 @@ public class Point {
 
     // nhap
     public void nhapDiem(){
-        Scanner nd= new Scanner(System.in);
+     
         System.out.println("Nhap ten diem: ");
         tendiem = nd.nextLine();
         System.out.println("Nhap hoanh do: ");

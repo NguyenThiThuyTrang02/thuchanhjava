@@ -10,6 +10,7 @@ public class App54 {
         HinhChuNhat hcn= new HinhChuNhat();
         HinhVuong hv=new HinhVuong();
         // nhap cho hinh tron.
+        ht.HinhTron();
         ht.xuatTen();
         ht.nhapBanKinh();
         ht.tinhChuvi();

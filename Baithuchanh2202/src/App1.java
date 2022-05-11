@@ -7,8 +7,7 @@ public class App1 {
         a = sc.nextInt();
         System.out.print(" Nhap vao so nguyen duong b: ");
         b = sc.nextInt();
-        System.out.println("USCLN cua " + a + " va " + b
-                + " la: " + USCLN(a, b));
+        System.out.println("USCLN cua " + a + " va " + b+ " la: " + USCLN(a, b));
     }
     public static int USCLN(int a, int b) {
         if (b == 0) return a;
